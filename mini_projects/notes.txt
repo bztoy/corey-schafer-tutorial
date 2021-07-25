@@ -1,0 +1,15 @@
+Earth - Our Solar System - #4.txt
+Jupiter - Our Solar System - #6.txt
+Mars - Our Solar System - #5.txt
+Mercury - Our Solar System - #5.txt
+Neptune - Our Solar System - #5.txt
+Pluto - Our Solar System - #10.txt
+Saturn - Our Solar System - #7.txt
+The Sun - Our Solar System - #1.txt
+Uranus - Our Solar System - #9.txt
+Venus - Our Solar System - #3.txt
+
+# Powershell script to create files
+New-Item -ItemType "file" -Path "Earth - Our Solar System - #4.txt", "Jupiter - Our Solar System - #6.txt", "Mars - Our Solar System - #5.txt", "Mercury - Our Solar System - #5.txt", "Neptune - Our Solar System - #5.txt", "Pluto - Our Solar System - #10.txt", "Saturn - Our Solar System - #7.txt", "The Sun - Our Solar System - #1.txt", "Uranus - Our Solar System - #9.txt", "Venus - Our Solar System - #3.txt"
+
+>
